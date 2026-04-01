@@ -1,4 +1,4 @@
-import { puzzleBuild } from "./dependencies/library.js";
+import { puzzleBuild, getVertice } from "./dependencies/library.js";
 import * as puzzles from "./dependencies/puzzles.js";
 
 window.onload = () => {
@@ -10,4 +10,8 @@ window.onload = () => {
 
     canvas.style.width = `${grid.offsetWidth}px`;
     canvas.style.height = `${grid.offsetHeight}px`;
+
+    canvas.addEventListener("click", (e) => {
+        getVertice(canvas, e);
+    });
 };

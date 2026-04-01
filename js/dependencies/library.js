@@ -14,3 +14,19 @@ export const puzzleBuild = (puzzle, data, grid) => {
         grid.appendChild(gridRow);
     });
 };
+
+export const getVertice = (canvas, event) => {
+    const canvasData = canvas.getBoundingClientRect();
+    const x = parseInt(event.clientX - canvasData.left);
+    const y = parseInt(event.clientY - canvasData.top);
+    const col = parseInt(x / 52 + 1);
+    const row = parseInt(y / 52 + 1);
+
+    if (x > (col - 1) * 52 + 27) {
+        if (y > 27 + (row - 1) * 52) console.log("vertice 4");
+        else console.log("vertice 2");
+    } else {
+        if (y > 27 + (row - 1) * 52) console.log("vertice 3");
+        else console.log("vertice 1");
+    }
+};

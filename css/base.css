@@ -37,6 +37,7 @@ sub:has(+ div) {
 #canvas {
     grid-area: 1/1/2/2;
     width: 0;
+    z-index: 10;
 }
 #grid {
     grid-area: 1/1/2/2;
