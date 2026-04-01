@@ -29,3 +29,15 @@ sub {
 sub:has(+ div) {
     margin: 0 0 10px 0;
 }
+
+#play-area {
+    display: grid;
+}
+
+#canvas {
+    grid-area: 1/1/2/2;
+    width: 0;
+}
+#grid {
+    grid-area: 1/1/2/2;
+}
