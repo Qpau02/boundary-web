@@ -1,0 +1,31 @@
+* {
+    --border-width: 2px;
+    --border-color: #000;
+    --wall-bg: #000;
+    --capture-bg: #90ee90;
+    --full-capture-bg: #008000;
+    --exclusive-capture-bg: #007070;
+    --glass-bg: #00cccc;
+    --metal-bg: #707070;
+    --hole-bg: #a9a9a9;
+    --mine-bg: #ff8080;
+    --gem-bg: #9080ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 100vh;
+    width: 100vw;
+}
+
+sub {
+    margin-top: 10px;
+}
+sub:has(+ div) {
+    margin: 0 0 10px 0;
+}

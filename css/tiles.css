@@ -1,0 +1,44 @@
+.wall {
+    background: no-repeat center/100% url(../img/wall.png);
+    background-color: var(--wall-bg);
+}
+
+.capture {
+    background: no-repeat center/100% url(../img/capture.png);
+    background-color: var(--capture-bg);
+}
+
+.full-capture {
+    background: no-repeat center/100% url(../img/full-capture.png);
+    background-color: var(--full-capture-bg);
+}
+
+.exclusive-capture {
+    background: no-repeat center/100% url(../img/exclusive-capture.png);
+    background-color: var(--exclusive-capture-bg);
+}
+
+.glass {
+    background: no-repeat center/100% url(../img/glass.png);
+    background-color: var(--glass-bg);
+}
+
+.metal {
+    background: no-repeat center/100% url(../img/metal.png);
+    background-color: var(--metal-bg);
+}
+
+.hole {
+    background: no-repeat center/100% url(../img/hole.png);
+    background-color: var(--hole-bg);
+}
+
+.mine {
+    background: no-repeat center/100% url(../img/mine.png);
+    background-color: var(--mine-bg);
+}
+
+.gem {
+    background: no-repeat center/100% url(../img/gem.png);
+    background-color: var(--gem-bg);
+}

@@ -12,12 +12,12 @@ Official Development Fork for the web version of Boundary
               Functions to be decided
     - [ ] Level Select menu
         - [ ] Level pages
-            - [ ] Load puzzle off JS object
+            - [x] Load puzzle off JS object
             - [ ] Place vertices in puzzle
             - [ ] Remove vertices in puzzle
             - [ ] Generate shape off vertices and have it placed over the puzzle
             - [ ] Calculate and display score dynamically
             - [ ] Going back to the level select screen
-            - [ ] Going back to the main menu8
+            - [ ] Going back to the main menu
     - [ ] Editor page
           Functions to be decided
